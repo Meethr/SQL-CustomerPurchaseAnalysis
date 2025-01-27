@@ -22,7 +22,7 @@ select round(avg(annual_income),2) as Average_Yearly_income, round(avg(annual_in
 from cust;
 
 -- Insight
--- 3. The average annual income for customers is USD 57407.56 while average monthly income is $4783.96
+-- 3. The average annual income for customers is USD 57407.56 while average monthly income is  USD 4783.96. 
 
 -- Max and min annual income 
 select min(annual_income) as min_annual_income, max(annual_income) as max_annual_income
@@ -153,7 +153,7 @@ from region_purchase_correlation;
 
 
 -- Insights 
--- 11. Highest total ampunt spent is in the West. 
+-- 11. Highest total amount spent is in the West. 
 -- 12. Largest customer base is in the North. 
 -- 13. Smallest customer base is in east - look to run marketing campaigns here 
 
